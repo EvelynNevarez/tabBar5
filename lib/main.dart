@@ -37,19 +37,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(50), // Creates border
                 color: Colors.greenAccent), //Change background color from here
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.discord)),
+              Tab(icon: Icon(Icons.accessibility)),
+              Tab(icon: Icon(Icons.album)),
               Tab(icon: Icon(Icons.add_to_photos_sharp)),
             ],
           ),
-          title: Text('Tabs Demo'),
+          title: Text('Tabs Evelyn Nevarez'),
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.discord, size: 350),
+            Icon(Icons.accessibility, size: 350),
+            Icon(Icons.album, size: 350),
             Icon(Icons.add_to_photos_sharp, size: 350),
           ],
         ),
